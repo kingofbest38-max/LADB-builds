@@ -159,5 +159,4 @@ jobs:
           tag_name: ${{ needs.build.outputs.build_tag }}
           name: Release ${{ needs.build.outputs.build_tag }}
           files: dist/signed.apk
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:Control + Shift GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
